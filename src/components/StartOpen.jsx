@@ -17,7 +17,7 @@ export const StartOpen = () => {
                     alt=""
                     className="w-14 h-14 flex justify-center border border-white rounded-md"
                 />
-                <span className="text-xl text-white font-bold">Camilo</span>
+                <span className="text-xl text-white font-bold">Cristian</span>
             </div>
             <LineSeparator size="lg" className="absolute" />
 
@@ -31,7 +31,7 @@ export const StartOpen = () => {
                             onClick={() => setToggleError(true)}
                         />
                         <a
-                            href="mailto:camiloi.99@hotmail.com"
+                            href="mailto:araozcristian@gmail.com"
                             className="w-full"
                         >
                             <FilesStartModal

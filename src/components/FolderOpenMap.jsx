@@ -31,7 +31,7 @@ export const FolderOpenMap = () => {
 
     return (
         <div className="flex flex-wrap gap-7 w-full h-fit">
-            {(checkSelectedFolder.names === "Proyectos" &&
+            {(checkSelectedFolder.names === "Projects" &&
                 Data.map(
                     (explorer) =>
                         explorer.category === "projects" && (
@@ -47,25 +47,25 @@ export const FolderOpenMap = () => {
                             </div>
                         )
                 )) ||
-                (checkSelectedFolder.names === "Conocimientos" &&
+                (checkSelectedFolder.names === "Skills" &&
                     Data.map(
-                        (conoci) =>
-                            conoci.category === "conocimientos" && (
+                        (skill) =>
+                            skill.category === "skills" && (
                                 <div
-                                    key={conoci.id}
+                                    key={skill.id}
                                     className="flex items-center gap-1 w-fit cursor-pointer h-fit"
                                 >
-                                    <img src={conoci.icon} alt="" width={50} />
+                                    <img src={skill.icon} alt="" width={50} />
                                     <span className="text-xs max-w-[100px] text-center">
-                                        {conoci.names}
+                                        {skill.names}
                                     </span>
                                 </div>
                             )
                     )) ||
-                (checkSelectedFolder.names === "Sobre mi" &&
+                (checkSelectedFolder.names === "About me" &&
                     Data.map(
                         (about) =>
-                            about.category === "sobremi" && (
+                            about.category === "aboutMe" && (
                                 <div
                                     key={about.id}
                                     className="flex items-center gap-1 w-fit cursor-pointer h-fit"

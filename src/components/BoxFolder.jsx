@@ -4,7 +4,7 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 export const BoxFolder = ({ children, title }) => {
     const [selected, setSelected] = useState(true);
     const headerBoxStyle =
-        title === "Sobre mi"
+        title === "About me"
             ? "bg-gradient-to-r from-blue-600 to-blue-400 text-white"
             : "bg-gradient-to-r from-slate-100 to-slate-200 text-blue-900";
     return (

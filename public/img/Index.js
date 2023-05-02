@@ -1,4 +1,4 @@
-export { default as Ajedrez } from "./ajedrez.png";
+export { default as Ajedrez } from "./ajedrez.jpeg";
 export { default as Email } from "../../public/img/email.png";
 export { default as Explorer } from "../../public/img/explorer.png";
 export { default as WindowsMedia } from "../../public/img/windowsMedia.png";

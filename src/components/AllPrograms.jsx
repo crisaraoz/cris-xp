@@ -9,12 +9,16 @@ export const AllPrograms = () => {
 
     return (
         <div className="h-[350px] w-[200px] bg-white relative border-l-[3px] border border-blue-500">
+            <a
+              href="mailto:araozcristian@gmail.com"
+              className="w-full"
+            >
             <FilesStartModal
                 image={Carpetas.Email}
                 secondText="Outlook Express"
                 imageSize="tertiary"
-                onClick={() => setToggleError(true)}
             />
+            </a>
             <FilesStartModal
                 image={Carpetas.Messenger}
                 secondText="Messenger"

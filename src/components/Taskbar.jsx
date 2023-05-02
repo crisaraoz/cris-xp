@@ -104,23 +104,23 @@ export const Taskbar = ({ onClick = () => {} }) => {
                 <div className="bg-blue-400 h-full flex items-center px-5 text-white text-sm shadow-l transition-all gap-2">
                     <span className="flex items-center justify-center gap-2">
                         <a
-                            href="https://github.com/CamiloIzquierdo"
+                            href="https://github.com/crisaraoz"
                             target="__blank"
                             className="cursor-pointer group relative"
                         >
                             <div className="hidden group-hover:flex absolute bg-white rounded-sm text-black -top-12 left-1 right-1 p-2 w-fit text-xs">
-                                Ir a mi GitHub
+                            my GitHub
                             </div>
                             <AiFillGithub />
                         </a>
 
                         <a
-                            href="https://www.linkedin.com/in/camilo-izquierdo-99a660229/"
+                            href="https://www.linkedin.com/in/cris-araoz//"
                             target="__blank"
                             className="cursor-pointer group relative"
                         >
                             <div className="hidden group-hover:flex absolute bg-white rounded-sm text-black -top-12 left-1 right-1 p-2 w-fit text-xs">
-                                Ir a mi Linkedin
+                                my Linkedin
                             </div>
                             <GrLinkedinOption />
                         </a>
